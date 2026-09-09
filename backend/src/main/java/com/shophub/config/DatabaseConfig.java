@@ -34,7 +34,7 @@ public class DatabaseConfig {
         String password = dbPassword;
         String driver = dbDriver;
 
-        if (dbUrl != null && dbUrl.startsWith("postgres://")) {
+        if (dbUrl != null && (dbUrl.startsWith("postgres://") || dbUrl.startsWith("postgresql://"))) {
             try {
                 URI uri = URI.create(dbUrl);
                 String userInfo = uri.getUserInfo();
