@@ -1,0 +1,20 @@
+# Target folders (Maven build output)
+target/
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Runtime logs
+*.log
+*.log.err
+run*.log
+.mvn-wrapper.jar
