@@ -13,7 +13,7 @@ services:
       - key: DB_URL
         fromDatabase:
           name: shophub-db
-          property: jdbcURI
+          property: connectionString
       - key: DB_USERNAME
         fromDatabase:
           name: shophub-db
