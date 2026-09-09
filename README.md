@@ -2,8 +2,8 @@
 
 A production-style e-commerce platform built with **Spring Boot, React.js, and PostgreSQL**. Features JWT-based authentication, role-based access control (CUSTOMER / ADMIN), product catalog with search and category filters, shopping cart, and order management.
 
-**Live demo:** (add after deployment)
-**API backend:** (add after deployment)
+**🌐 Live demo:** https://inquisitive-nougat-6098e7.netlify.app
+**🔌 API backend:** https://shophub-api-asww.onrender.com (Swagger: https://shophub-api-asww.onrender.com/swagger-ui/index.html)
 
 ---
 
